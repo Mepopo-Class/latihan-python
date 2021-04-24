@@ -6,9 +6,9 @@
 # 3 angka tadi diprint dari kecil ke besar
 # pakai logika kasaran tidak apa apa
 # output yg diinginkan:
-  # Peringkat satu: 12
-  # Peringkat dua: 5  
-  # Peringkat tiga: 4 
+  # Peringkat satu: 5
+  # Peringkat dua: 8 
+  # Peringkat tiga: 14 
 
 
 # < Tips >
