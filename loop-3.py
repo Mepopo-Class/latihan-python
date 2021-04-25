@@ -12,6 +12,7 @@
 
 
 data = ['alpha', 'bravo', 'charlie', 'delta', 'echo']
+asik = len(data) - 1
 
-for i in range(len(data) - 1, -1, -1):
+for i in range(asik, -1, -1):
     print(data[i])
