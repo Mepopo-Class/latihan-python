@@ -13,3 +13,37 @@
 
 
 point = 0
+
+soal =  [
+  {
+    "kuwesen": "Apakah rita kawaii?",
+    "enswer" : "ya"
+  },
+  {
+    "kuwesen": "Apakah mei-senpai kawaii?",
+    "enswer" : "ya"
+  },
+  {
+    "kuwesen": "Apakah renie kawaii?",
+    "enswer" : "ya"
+  },
+  {
+    "kuwesen": "Apakah rita suka dengan kapten??",
+    "enswer" : "tentu saja"
+  },
+  {
+    "kuwesen": "Apakah kapten suka dengan rita??",
+    "enswer" : "tentu saja"
+  },
+]
+
+for s in soal:
+  print(f"Soal:{s['kuwesen']}")
+  jawaban = input("masukkan jawaban anda: ")
+  if s['enswer'] == jawaban:
+    print("Selamat jawaban benar")
+    point += 1
+  else:
+    print("jawaban anda salah")
+
+print("Nilai anda adalah:",point)
