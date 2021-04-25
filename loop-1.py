@@ -9,3 +9,6 @@
 
 
 data = [5, 7, 4, 1, 11]
+
+for i in data:
+    print(i * 5)

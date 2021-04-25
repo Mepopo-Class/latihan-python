@@ -20,3 +20,31 @@
 
 username = "admin"
 password = "rimoromi"
+
+# inpUser = input("Masukkan Username ")
+# inpPass = input("Masukkan Password ")
+
+# if inpUser == username and inpPass == password:
+#     print("Berhasil Login")
+# elif inpUser != username and inpPass != password:
+#     print("Username dan Password Salah")
+# elif inpUser != username:
+#     print("Username Salah")
+# elif inpPass != password:
+#     print("Password Salah")
+
+
+# Ini Versi Bercabang Yang Dikasih Rahman Hanya Saya Ubah Sedikit
+while True:
+    inpUser = input("Masukkan Username ")
+
+    if inpUser == username:
+        print("Hemlo", username, "\n")
+        inpPass = input("Masukkan Password ")
+        if inpPass != password:
+            print("Password Salah, Coba Lagi\n")
+        else:
+            print("Berhasil Login")
+            break
+    else:
+        print("Username Salah, Coba Lagi\n")

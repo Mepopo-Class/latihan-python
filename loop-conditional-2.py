@@ -10,3 +10,20 @@
 
 # < Tips >
 # gunakan metode increment (var = var + 1) atau (var += 1)
+
+koin = 0
+
+while koin <= 10:
+    inpKoin = str(input("Apakah Anda Ingin Memasukkan Koin ? "))
+    if inpKoin == "iya":
+        koin += 1
+        if koin == 10:
+            print("Anda Terlalu Banyak Memasukkan Koin")
+            print("Jumlah Koin Sudah Mencapai", koin, "Koin")
+    elif inpKoin == "buka":
+        print("Jumlah Koin Anda Sebanyak", koin, "Koin")
+        koin -= koin
+    elif inpKoin == "end":
+        break
+    else:
+        print("???")

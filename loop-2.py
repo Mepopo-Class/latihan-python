@@ -11,3 +11,9 @@
 
 
 data = ['alpha', 'bravo', 'charlie', 'delta', 'echo']
+
+inc = 0
+
+while inc <= len(data) - 1:
+    print(data[inc])
+    inc += 1
