@@ -9,3 +9,7 @@
 
 
 data = [5, 7, 4, 1, 11]
+
+for d in data:
+  print(d * 5)
+  
