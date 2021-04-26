@@ -10,3 +10,6 @@
 # < Tips >
 # gunakan teknik increment
 # ambil per huruf lalu incrementkan dengan garisnya (-)
+
+
+kata = "Hibiscus"

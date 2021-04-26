@@ -12,3 +12,6 @@
 # < Tips >
 # Gunakan kembali teknik yg pernah digunakan pada soal loop array terbalik (loop-3)
 # gunakan concate string += dan assign nilainya ke variabel wadah
+
+
+kata = "Hibiscus"
