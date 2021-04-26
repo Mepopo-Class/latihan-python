@@ -12,3 +12,9 @@
   
 
 data = [2, 23, 4, 9, 3]
+
+for i in data:
+  if i % 2 == 0:
+    print("genap")
+  elif i % 2 == 1:
+    print("ganjil")

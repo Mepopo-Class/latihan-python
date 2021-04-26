@@ -11,3 +11,8 @@
 
 
 data = ['alpha', 'bravo', 'charlie', 'delta', 'echo']
+i = 0
+
+while i <= len(data) - 1:
+  print(data[i])
+  i += 1

@@ -7,3 +7,10 @@
 
 # < Tips >
 # pastikan anda sudah mengcasting variabel user_inp kedalam int()
+
+user_inp = int(input("Masukkan angka: "))
+
+if user_inp % 2 == 0:
+  print("genap")
+elif user_inp % 2 == 1:
+  print("ganjil")

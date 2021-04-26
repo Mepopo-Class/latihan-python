@@ -20,3 +20,13 @@
 
 username = "admin"
 password = "rimoromi"
+
+user_inp = input("Masukkan username: ")
+if user_inp == username:
+  pass_inp = input("Masukkan password: ")
+  if pass_inp == password:
+    print("Berhasil login")
+  else:
+    print("Password salah")
+else:
+  print("Username salah")

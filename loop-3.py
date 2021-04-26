@@ -12,3 +12,6 @@
 
 
 data = ['alpha', 'bravo', 'charlie', 'delta', 'echo']
+length = len(data)
+for i in range(length-1,-1,-1):
+  print(data[i])

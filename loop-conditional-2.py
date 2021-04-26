@@ -10,3 +10,19 @@
 
 # < Tips >
 # gunakan metode increment (var = var + 1) atau (var += 1)
+
+koin = 0
+
+while koin <= 10:
+  user_inp = input("Apa yang ingin anda lakukan: ")
+  if user_inp == "tambah koin":
+    if koin < 10:
+      koin += 1
+    elif koin == 10:
+      print("Koin sudah mencapai batas.")
+  elif user_inp == "buka":
+    print("Jumlah koin:", koin)
+    print("Koin akan direset menjadi 0")
+    koin = 0
+  elif user_inp == "end":
+    break
