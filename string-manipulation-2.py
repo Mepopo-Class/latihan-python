@@ -13,3 +13,12 @@
 
 
 kata = "Hibiscus"
+panjang = len(kata)
+cetak = ""
+
+for i in range(panjang):
+    cetak += kata[i]
+    if i < len(kata) - 1:
+        cetak += "-"
+
+print(cetak)
