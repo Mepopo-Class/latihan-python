@@ -12,5 +12,13 @@
 # < Tips >
 # pay $999 to unlock tips..
 
-
+# Method ku
 path = "postingan/trending/cara-bernafas"
+
+posting, trend, judul = path.split('/')
+
+print("judul postingan :", judul)
+
+# Method Seng Dikandani Ipan
+jumdul = path.split('/')
+print("\nJudul Postingan :", jumdul[2])
