@@ -1,0 +1,11 @@
+urutan belajar by MepMep:
+
+1. conditional
+2. loop
+3. loop conditional
+4. string manipulation
+5. function
+
+
+
+-- Good Lucky! --
