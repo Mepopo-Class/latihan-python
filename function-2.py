@@ -23,7 +23,7 @@ def avrg(angkaku):
     jumlah = 0
     angka = angkaku
     # jumlah = sum(angkaku) (Bisa pakai cara Ini, tapi takut ipan marah)
-    for i in angkaku:
+    for i in angka:
         jumlah += i
     return jumlah
 
